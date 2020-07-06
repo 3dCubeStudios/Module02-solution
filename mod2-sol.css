@@ -22,7 +22,14 @@ h1{
 	margin-bottom: 35px;
 }
 h2{
-	text-align: right;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: right;
+	position: relative;
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 10px;
+	border: 2px solid white;
 }
 div.col-lg-1{
   background-color: rgba(211,211,211,0.33);
@@ -61,6 +68,9 @@ div.col-lg-3{
   padding-left: 10px;
    font-style: bold;
   font-size: 22px;
+}
+p{
+	clear: right;
 }
 @media (min-width: 280px) and (max-width: 539px){
 	h1{
