@@ -59,10 +59,11 @@ div.col-lg-3{
    font-style: bold;
   font-size: 22px;
 }
-@media only screen and (max-width: 539px){
+@media (min-width: 280px) and (max-width: 539px){
 	h1{
-		font-size: 73px;
-	}	
+		font-size: 48px;
+	}
+}	
 }
 @media (min-width: 540px) and (max-width: 767px){
 	h1{
